@@ -13,6 +13,6 @@ rules:
   - action: utter_iamabot
 
 - rule: respond to chitchat
-    steps:
-    - intent: chitchat
-    - action: utter_chitchat
+  steps:
+  - intent: chitchat
+  - action: utter_chitchat
