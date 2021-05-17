@@ -25,7 +25,7 @@ responses:
   utter_iamabot:
   - text: I am a bot, powered by Rasa.
 actions:
-- respond_chitchat
+- utter_chitchat
 - utter_greet
 - utter_cheer_up
 - utter_did_that_help

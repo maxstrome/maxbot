@@ -33,4 +33,4 @@
 
 ## New Story
 * chitchat
-    - respond_chitchat
+    - utter_chitchat
