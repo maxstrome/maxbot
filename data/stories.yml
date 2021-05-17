@@ -28,3 +28,8 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+
+- story: sad path 3
+  steps:
+  - intent: chitchat
+  - action: utter_chitchat
