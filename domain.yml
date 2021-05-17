@@ -8,6 +8,7 @@ intents:
 - deny
 - mood_great
 - mood_unhappy
+- chitchat
 - bot_challenge
 responses:
   utter_greet:
@@ -24,6 +25,7 @@ responses:
   utter_iamabot:
   - text: I am a bot, powered by Rasa.
 actions:
+- respond_chitchat
 - utter_greet
 - utter_cheer_up
 - utter_did_that_help
