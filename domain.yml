@@ -24,6 +24,11 @@ responses:
   - text: Bye
   utter_iamabot:
   - text: I am a bot, powered by Rasa.
+rules:
+  - rule: respond to chitchat
+    steps:
+    - intent: chitchat
+    - action: utter_chitchat
 actions:
 - utter_chitchat
 - utter_greet
