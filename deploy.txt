@@ -11,8 +11,7 @@ How deploy Rasa bot to website (with docker-compose, unsure how much traffic can
 5. Buy domain name, point to RasaX IP, set up route through CloudFare to get HTTPS
 5. Follow https://rasa.com/docs/rasa/connectors/your-own-website to make changes to allow socket.io or REST connections
 6. Do what you want with connections (I used Rest API with https://github.com/scalableminds/chatroom)
-7. Build action server image
+7. Build action server image (connect to DockerHub, add in docker-compose override file)
 
 
-
-7. Monitor conversations through Rasa X, add data into GitHub, retrain models, version control, CI/CD
+Keep most up to date always on GitHub.  Update model through RasaX and or local.  Post updated action to DockerHub
