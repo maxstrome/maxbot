@@ -18,6 +18,7 @@
 ## sad path 2
 * greet
   - utter_greet
+  - utter_greet
   - action_hello_world
 * mood_unhappy
   - utter_cheer_up
