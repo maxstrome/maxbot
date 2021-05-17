@@ -13,9 +13,6 @@ pipeline:
   - name: DIETClassifier
     epochs: 100
   - name: EntitySynonymMapper
-  - name: ResponseSelector
-    retrieval_intent: chitchat
-    epochs: 125
 
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/

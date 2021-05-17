@@ -33,7 +33,3 @@ stories:
   - intent: bot_challenge
   - action: action_hello_world
   - action: utter_iamabot
-- story: New Story
-  steps:
-  - intent: chitchat
-  - action: utter_chitchat
